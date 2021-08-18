@@ -15,6 +15,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
     <title>Furniture collection</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   </head>
   <body>
     <!-- header -->
@@ -33,7 +34,7 @@
               </ul>
             </nav>
             <a href="" class="logo">
-              <img src="build/images/logo.png" alt="logo" />
+              <img src="images/logo.png" alt="logo" />
             </a>
 
             <nav class="menu">
@@ -47,15 +48,25 @@
               </ul>
             </nav>
             <button class="header__btn">
-              <img src="build/images/icon_menu.svg" alt="icon menu" />
+              <img src="images/icon_menu.svg" alt="icon menu"/>
             </button>
-            <div class="rightside-menu">
+
+            <div class="rightside-menu rightside-menu--close">
               <button class="rightside-menu__close">
-                <a class="logo" href="#">
-                  <img src="images/logo-big.svg" alt="big logo">
-                </a>
+                <img src="images/cancel.svg" alt="">
               </button>
+              <div class="rightside-menu__content">
+                <a class="rightside-menu__logo" href="#">
+                  <img src="images\big-logo.png" alt="logo">
+                </a>    
+                <h4 class="rightside-menu__title">
+                  Furniture for life
+                </h4>
+                <p class="rightside-menu__text">Lorem ipsum dolor sit amet mollitia consectetur adipisicing mollitia elit. Beatae quisquam iure, vel mollitia natus ad velit vitae deserunt! </p>
+                <img class="rightside-menu__images" src="images/rightside.jpg" alt="images">
+              </div>
             </div>
+            
           </div>
         </div>
       </header>
@@ -129,6 +140,6 @@
     </div>
     <!-- div wrapper'a -->
 
-    <script src="build/js/script.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
